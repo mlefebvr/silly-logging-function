@@ -26,9 +26,11 @@ const myFunction = (arg) => {
     message: `Received log message ${arg}`
   })
 }
+
+myFunction('test')
 ```
 
 ## Output
 ```json
-{"app":"none","environment":"none","timestamp":"2021-06-17T01:34:55.887Z","details":{"url": "/"},"statusCode":200,"statusMessage":"OK","duration":11}
+{"timestamp":"2021-06-19T04:01:04.186Z","details":{"arg":"test","message":"Received log message test"}}
 ```
