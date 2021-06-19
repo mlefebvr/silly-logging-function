@@ -1,0 +1,33 @@
+{
+  "name": "silly-logging-function",
+  "version": "1.0.0",
+  "description": "A logging function so simple it's silly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlefebvr/silly-logging-function.git"
+  },
+  "keywords": [
+    "logging",
+    "silly",
+    "nodejs"
+  ],
+  "author": "Martin Lefebvre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlefebvr/silly-logging-function/issues"
+  },
+  "homepage": "https://github.com/mlefebvr/silly-logging-function#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "moment-timezone": "^0.5.33"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
